@@ -4,10 +4,10 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
 
-public class immutable02Calandar {
+public class Immutable02Calandar {
     private final Date releasedDate; 
 
-    public immutable02Calandar(Date releasedDate){
+    public Immutable02Calandar(Date releasedDate){
         this.releasedDate = releasedDate;
     }
 

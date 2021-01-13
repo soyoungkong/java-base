@@ -1,6 +1,6 @@
 package style;
 
-public class immutable01Object {
+public class Immutable01Object {
     // String s = new String("Stringtest") // "Stringtest 자체로 스트링 객체
     String s = "Stringtest"; // recommend 
 

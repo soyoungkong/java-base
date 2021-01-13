@@ -1,6 +1,7 @@
 package style;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 /**
  * <싱글톤 3-3. 직렬화, 역직렬화 대응 >
