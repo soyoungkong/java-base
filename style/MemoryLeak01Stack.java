@@ -18,6 +18,11 @@ public class MemoryLeak01Stack {
 	public Object pop(){
 		if (size==0)
 			throw new EmptyStackException();
+		
+		// 추가 코드 
+		Object results = elements[--size];
+		elements[size] = null; // 만기 참조 제거, 만기참조를 null로 만들면 Nullpointexception이 발생해서 오동작 대신 종료됨.  		
+		// 추가 코드 
 
 		return elements[--size];
 	}
